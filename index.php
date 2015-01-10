@@ -3,6 +3,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=EDGE">
     <title>AUI - Default Page</title>
+    <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
 </head>
 <body class="aui-page-focused aui-page-focused-large"><!-- For a normal page, omit all 'aui-page-' classes here -->
 <div id="page">
