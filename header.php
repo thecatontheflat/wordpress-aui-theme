@@ -1,10 +1,8 @@
-<html>
 <head>
-    <title>Tutorial theme</title>
-    <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
+    <meta charset="<?php bloginfo( 'charset' ); ?>">
+    <meta http-equiv="X-UA-Compatible" content="IE=EDGE">
+    <title><?php wp_title( '|', true, 'right' ); ?></title>
+<!--    <script src="--><?php //echo get_template_directory_uri(); ?><!--/js/html5.js"></script>-->
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/aui/css/aui.min.css">
+    <?php wp_head(); ?>
 </head>
-<body>
-<div id="wrapper">
-    <div id="header">
-        <h1>HEADER</h1>
-    </div>

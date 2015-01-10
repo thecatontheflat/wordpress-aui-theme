@@ -1,6 +1,8 @@
-            <div id="footer">
-                <h1>FOOTER</h1>
-            </div>
-        </div>
-    </body>
-</html>
+<footer id="footer" role="contentinfo">
+    <section class="footer-body">
+        <ul>
+            <li>I ♥ AUI</li>
+        </ul>
+        <div id="footer-logo"><a href="http://www.atlassian.com/" target="_blank">Atlassian</a></div>
+    </section>
+</footer>
